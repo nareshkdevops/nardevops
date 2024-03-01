@@ -60,3 +60,4 @@ New-AzVM -ResourceGroupName $ResourceGroupName -Location $Location `
 
 
 
+#new comment added for git commit and add commands S
