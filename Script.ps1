@@ -43,6 +43,7 @@ Set-AzVMOperatingSystem -VM $VmConfig -ComputerName $VmName `
 -Credential $Credential -Windows
 
 # Here we specify what is the source image to be used
+#first edit here
 Set-AzVMSourceImage -VM $VmConfig -PublisherName "MicrosoftWindowsServer" `
 -Offer "WindowsServer" -Skus "2019-Datacenter" -Version "latest"
 
@@ -53,11 +54,11 @@ $Vm=Add-AzVMNetworkInterface -VM $VmConfig -Id $NetworkInterface.Id
 
 # We don't want boot diagnostics
 Set-AzVMBootDiagnostic -Disable -VM $Vm
-
+#second change
 # Finally we can create the virtual machine
 New-AzVM -ResourceGroupName $ResourceGroupName -Location $Location `
 -VM $Vm
 
 
 
-#new comment added for git commit and add commands S
+#new comment added for git commit and add commands Sasasasasasa
