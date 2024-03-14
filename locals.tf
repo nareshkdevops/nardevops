@@ -8,4 +8,4 @@ locals {
 #for checking pull request
 
 # im in local and naresh-branch branch
-#hruyen branch it is is edited from remote local
+#hruyen branch it is is edited from remote local ---naresh branch going to merge with hriyen branch
