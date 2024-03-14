@@ -4,4 +4,4 @@ resource "azurerm_resource_group" "appgrp" {
 }
 #this is my main branch
 #it is first
-#for fetch this line added
+#for git fetch command this line
