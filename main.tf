@@ -4,4 +4,4 @@ resource "azurerm_resource_group" "appgrp" {
 }
 
 #its naresh branch
-#im merged naresh-branch
+#im merged naresh-branch ---- it is hriyen branch
