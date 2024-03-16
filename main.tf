@@ -4,5 +4,6 @@ resource "azurerm_resource_group" "appgrp" {
 }
 
 #its naresh branch
+<<<<<<< HEAD
 #im merged naresh-branch ---- it is hriyen branch -blame 01 &  blame 02
 # git amend command for commit and its new ament i m doing 0000000000000000000000000000000000001111111111
